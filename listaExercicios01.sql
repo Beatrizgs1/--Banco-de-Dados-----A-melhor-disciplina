@@ -158,4 +158,13 @@ GROUP BY alunos.nome;
 
 
 
+-- exercicio 20:
+SELECT produto
+FROM vendas
+GROUP BY produto
+ORDER BY COUNT(id) DESC
+LIMIT 1;
+
+
+
 
