@@ -144,6 +144,9 @@ LIMIT 1;
 
 
 
+-- exercicio 18:
+--CANCELADO
+
 
 
 
