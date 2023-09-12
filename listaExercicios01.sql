@@ -114,6 +114,15 @@ RIGHT JOIN alunos ON matriculas.aluno_id = alunos.id;
 
 
 
+-- exercicio 15:
+SELECT alunos.nome, matriculas.curso
+FROM alunos
+INNER JOIN matriculas ON alunos.id = matriculas.aluno_id;
+
+
+
+
+
 
 
 
