@@ -123,6 +123,17 @@ INNER JOIN matriculas ON alunos.id = matriculas.aluno_id;
 
 
 
+-- exercicio 16:
+SELECT autores.nome, COUNT(livros.id) AS numero_de_livros
+FROM autores
+LEFT JOIN livros ON autores.id = livros.autor_id
+GROUP BY autores.nome
+ORDER BY COUNT(livros.id) DESC
+LIMIT 1;
+
+
+
+
 
 
 
