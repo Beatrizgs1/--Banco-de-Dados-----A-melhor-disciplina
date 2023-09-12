@@ -20,6 +20,13 @@ WHERE autores.nome = 'J.K. Rowling';
 -- exercicio 4:
 SELECT alunos.nome FROM alunos
 JOIN matriculas ON alunos.id = matriculas.aluno_id
+
+
+-- exercicio 5:
+SELECT produto, SUM(receita) AS receita_total
+FROM vendas
+GROUP BY produto;
+
 WHERE matriculas.curso = 'Engenharia de Software';
 
 
