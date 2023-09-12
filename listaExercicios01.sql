@@ -59,6 +59,16 @@ GROUP BY produto;
 
 
 
+-- exercicio 9:
+SELECT produto
+FROM vendas
+GROUP BY produto
+HAVING SUM(receita) > 10000;
+
+
+
+
+
 
 
 
