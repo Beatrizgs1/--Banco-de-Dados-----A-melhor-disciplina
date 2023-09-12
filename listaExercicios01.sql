@@ -106,6 +106,15 @@ LEFT JOIN livros ON autores.id = livros.autor_id;
 
 
 
+-- exercicio 14:
+SELECT matriculas.curso, alunos.nome
+FROM matriculas
+RIGHT JOIN alunos ON matriculas.aluno_id = alunos.id;
+
+
+
+
+
 
 
 
