@@ -42,6 +42,16 @@ GROUP BY autores.nome;
 
 
 
+-- exercicio 7:
+SELECT curso, COUNT(alunos.id) AS numero_de_alunos
+FROM matriculas
+LEFT JOIN alunos ON matriculas.aluno_id = alunos.id
+GROUP BY curso;
+
+
+
+
+
 
 
 
